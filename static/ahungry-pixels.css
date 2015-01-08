@@ -1,0 +1,104 @@
+
+#animation {
+position:fixed;
+top:0px;
+left:0px;
+background:#666;
+padding:30px;
+margin:20px;
+height:320px;
+width:320px;
+border:1px solid #000;
+box-shadow:3px 3px 6px #000;
+}
+
+#animation img {
+position:absolute;
+}
+
+#controls {
+position:fixed;
+top:0px;
+right:0px;
+background:#ccc;
+color:#000;
+height:100%;
+border-left:2px solid #000;
+width:200px;
+}
+
+#controls input {
+width:100%;
+font-size:9px;
+}
+
+#controls .button {
+width:100%;
+background:#000;
+display:block;
+padding:3px;
+color:#fff;
+border:2px solid #000;
+text-align:left;
+border:0;
+border-radius:10px;
+}
+
+#controls .button:hover {
+background:#999;
+cursor:pointer;
+border:2px solid lime;
+}
+
+#controls label {
+display:block;
+clear:both;
+padding:6px;
+text-align:left;
+font-size:9px;
+}
+
+.canvas {
+opacity:.7;
+box-shadow:3px 3px 6px #000;
+border:1px solid #000;
+margin:20px;
+display:block;
+position:fixed;
+top:0px;
+right:200px;
+}
+
+#pallette {
+position:fixed;
+top:0px;
+right:0px;
+}
+
+.color {
+height:20px;
+width:20px;
+border-radius:10px;
+margin:3px;
+border:2px solid #000;
+}
+
+.pixel-editor {
+position:fixed;
+top:0px;
+left:0px;
+opacity:.4;
+width:500px;
+height:500px;
+}
+
+.pixel {
+height:9px;
+background:transparent;
+display:inline-block;
+font-size:1px;
+margin-right:-1px;
+margin-bottom:-1px;
+width:9px;
+border:1px solid #bbb;
+}
